@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMA Negeri 1 Leuwiliang</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        scroll-behavior: smooth;
+      }
+      .banner {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../assets/img/smanell.jpg');
+        background-size: cover;
+        color: white;
+        padding: 10rem 0;
+        text-align: center;
+      }
+      .banner h1 {
+        font-size: 4rem;
+        animation: fadeInDown 1s;
+      }
+      .banner h5 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+      .banner button:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+      }
+      .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        background: #111;
+        color: #bbb;
+        padding: 3rem 0;
+      }
+      footer a {
+        color: #bbb;
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">SMA Negeri 1 Leuwiliang</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#profil">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jurusan">Fasilitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jurusan">Jurusan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jurusan">Ekstrakurikuler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h5 class="display-6">Selamat Datang Di</h5>
+        <h1 class="display-1">SMA Negeri 1 Leuwiliang</h1>
+        <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">
+            Ayo Kenali Kami Lebih Dekat
+          </button>
+        </a>
+      </div>
+    </div>
+    
+    <div id="profil" class="container profil col-xxl-8 px-4 py-5 bg-light" data-aos="fade-up">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../assets/img/img-sman1.png" class="d-block mx-lg-auto img-fluid" alt="Profil SMAN 1 Leuwiliang" width="700" height="500">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Profil SMA Negeri 1 Leuwiliang</h1>
+          <p class="lead">SMAN 1 Leuwiliang adalah sekolah menengah atas negeri yang berkomitmen untuk menyediakan pendidikan berkualitas kepada siswa-siswi di Kabupaten Bogor. Berdiri sejak tahun 1947, SMAN 1 Leuwiliang telah menjadi pilihan utama bagi masyarakat yang mengutamakan pendidikan dengan pendekatan yang holistik dan berfokus pada pengembangan karakter, pengetahuan, serta keterampilan siswa.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="fasilitas" class="album fasilitas py-5 bg-white" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center display-2 pb-5">Fasilitas Sekolah</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/lab-kimia.jpg" class="bd-placeholder-img card-img-top" alt="Laboratorium Kimia">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Laboratorium Kimia</h4>
+                <p class="card-text text-center">Fasilitas lengkap untuk pembelajaran praktikum kimia secara mendalam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/lab-komputer.jpg" class="bd-placeholder-img card-img-top" alt="Laboratorium Komputer">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Laboratorium Komputer</h4>
+                <p class="card-text text-center">Dilengkapi dengan komputer modern untuk mendukung pembelajaran teknologi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/lab-bahasa.jpeg" class="bd-placeholder-img card-img-top" alt="Laboratorium Bahasa Asing">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Laboratorium Bahasa Asing</h4>
+                <p class="card-text text-center">Dilengkapi dengan alat Audio dan visual untuk membantu praktikum bahasa.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/lapangan-olahraga.png" class="bd-placeholder-img card-img-top" alt="Lapangan Olahraga">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Lapangan Futsal, Badminton, dan Basket</h4>
+                <p class="card-text text-center">Area luas untuk berbagai aktivitas olahraga siswa.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/masjid.jpg" class="bd-placeholder-img card-img-top" alt="Masjid Sekolah">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Masjid Khusus Sekolah</h4>
+                <p class="card-text text-center">Masjid yang luas dan nyaman, perlengkapan sholat lengkap untuk siswa-siswi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/kantin.jpeg" class="bd-placeholder-img card-img-top" alt="Kantin">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Kantin</h4>
+                <p class="card-text text-center">Menyediakan makanan dan minuman sehat untuk siswa dan guru.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="jurusan" class="album jurusan py-5 bg-light" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center display-2 pb-5">Jurusan yang Tersedia</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/jurusan-ipa.jpg" class="bd-placeholder-img card-img-top" alt="Jurusan IPA">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Jurusan IPA</h4>
+                <p class="card-text text-center">Jurusan IPA menawarkan pembelajaran mendalam dalam sains, teknologi, dan matematika, mempersiapkan siswa untuk dunia kerja di bidang ilmiah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/jurusan-ips.jpg" class="bd-placeholder-img card-img-top" alt="Jurusan IPS">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Jurusan IPS</h4>
+                <p class="card-text text-center">Jurusan IPS fokus pada pelajaran sosial seperti ekonomi, sejarah, dan geografi, cocok bagi siswa yang tertarik pada bidang sosial.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/jurusan-bahasa.jpg" class="bd-placeholder-img card-img-top" alt="Jurusan Bahasa">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Jurusan Bahasa</h4>
+                <p class="card-text text-center">Jurusan Bahasa mendukung siswa mengembangkan keterampilan berbahasa dengan pembelajaran bahasa asing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="album eskul py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center display-2 pb-5">Ekstrakurikuler</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/ekskul-pramuka.jpeg" class="bd-placeholder-img card-img-top" alt="Pramuka">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Pramuka</h4>
+                <p class="card-text text-center">
+                  Pramuka di SMAN 1 Leuwiliang bertujuan membentuk karakter siswa yang tangguh, disiplin, dan mandiri. Kegiatan meliputi pelatihan kepemimpinan, penjelajahan, tali-temali, serta pelaksanaan Dasa Dharma dan Trisatya. Ekstrakurikuler ini juga aktif dalam lomba kepramukaan tingkat kabupaten dan provinsi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/ekskul-paskibra.jpeg" class="bd-placeholder-img card-img-top" alt="Paskibra">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Paskibra</h4>
+                <p class="card-text text-center">
+                  Ekstrakurikuler Paskibra memberikan pelatihan baris-berbaris dan kepemimpinan, mempersiapkan siswa untuk menjadi petugas upacara yang handal. Selain itu, Paskibra SMAN 1 Leuwiliang sering tampil dalam kegiatan kenegaraan, seperti peringatan Hari Kemerdekaan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../assets/img/ekskul-futsal.jpeg" class="bd-placeholder-img card-img-top" alt="Futsal">
+              <div class="card-body">
+                <h4 class="display-7 text-center">Futsal</h4>
+                <p class="card-text text-center">
+                  Ekstrakurikuler Futsal menyediakan wadah bagi siswa untuk mengasah bakat di bidang olahraga. Tim Futsal sekolah sering mengikuti turnamen tingkat lokal hingga nasional, sekaligus mendorong jiwa sportivitas dan kerja sama tim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer id="kontak" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <h4 class="fw-bold">Informasi Kontak</h4>
+            <p><i class="fas fa-map-marker-alt me-2"></i> Jl. Raya Leuwiliang No.1, Bogor</p>
+            <p><i class="fas fa-phone-alt me-2"></i> (021) 123456789</p>
+            <p><i class="fas fa-envelope me-2"></i> info@sman1leuwiliang.sch.id</p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h4 class="fw-bold">Ikuti Kami</h4>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
